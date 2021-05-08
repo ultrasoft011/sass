@@ -8,3 +8,26 @@ header {
     background: $primaryBtn;
 }
 
+// Nesting elements inside the parent
+
+header {
+    background: black;
+    display: flex;
+    justify-content: center;
+    button {
+        background: red;
+        // & symbol to add a hover, focus 
+        &:hover {
+            background: yellow;
+        }
+        // &:
+        &:after {
+            content: 'Helloooo';
+        }
+    }
+    p {
+        color: white;
+    }
+}
+
+// 

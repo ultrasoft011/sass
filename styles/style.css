@@ -4,4 +4,30 @@ $headings-color: green; */
 header {
   background: #b65599;
 }
+
+header {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header button {
+  background: red;
+}
+
+header button:hover {
+  background: yellow;
+}
+
+header button:after {
+  content: 'Helloooo';
+}
+
+header p {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
