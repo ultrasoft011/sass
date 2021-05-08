@@ -2,32 +2,10 @@
 $main-fonts: Arial, sans-serif;
 $headings-color: green; */
 
-$primaryBtn: rgb(182, 85, 153);
+// To import - bring the _header to this file and to make it work
+@import "./div";
+@import "./variables";
+@import "./header";
 
-header {
-    background: $primaryBtn;
-}
 
 // Nesting elements inside the parent
-
-header {
-    background: black;
-    display: flex;
-    justify-content: center;
-    button {
-        background: red;
-        // & symbol to add a hover, focus 
-        &:hover {
-            background: yellow;
-        }
-        // &:
-        &:after {
-            content: 'Helloooo';
-        }
-    }
-    p {
-        color: white;
-    }
-}
-
-// 

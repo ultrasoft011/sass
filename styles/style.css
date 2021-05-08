@@ -2,10 +2,6 @@
 $main-fonts: Arial, sans-serif;
 $headings-color: green; */
 header {
-  background: #b65599;
-}
-
-header {
   background: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,11 +12,11 @@ header {
 }
 
 header button {
-  background: red;
+  background: #b65599;
 }
 
 header button:hover {
-  background: yellow;
+  background: #b65599;
 }
 
 header button:after {
