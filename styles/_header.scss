@@ -1,7 +1,13 @@
-header {
-    background: black;
+// Mixing
+@mixin flexCenter {
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+
+header {
+    @include flexCenter();
+    background: black;
     height: 500px;
     button {
         background: $primaryBtn;
